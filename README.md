@@ -6,8 +6,8 @@
 
 ## 1️⃣ IDE / 代码编辑器（AI Native）
 
-| 工具 | 核心特点 | 适用场景 | 定价 | 链接 |
-|------|----------|----------|------|------|
+| 工具 | 核心特点 | 适用场景 | 链接 |
+|------|----------|----------|------|
 | **Cursor** | AI结对编程，多模型支持，上下文管理中等 | 个人开发/小团队，追求人机协作流畅度 | [cursor.com](https://cursor.com) |
 | **Windsurf** | Cascade深度代码理解，跨会话记忆，图生代码 | 大型代码库/企业团队，需持久上下文 | [codeium.com/windsurf](https://codeium.com/windsurf) |
 | **Google Antigravity** | 多智能体协同，编辑器+终端+浏览器三端控制，UI测试 | 全栈开发/前端团队，Agent优先工作流 | [antigravity.google](https://antigravity.google) |
@@ -45,7 +45,7 @@
 > 解决多平台账号切换、配额监控、故障规避痛点
 
 | 工具 | 核心能力 | 支持平台 项目地址 |
-|------|----------|----------|----------|----------|
+|------|----------|----------|
 | **Antigravity-Manager** | ✅ 多账号统一管理/一键切换/配额监控/自动故障规避 ✅ 协议反代（OpenAI/Claude/Gemini）✅ 接入 Claude Code CLI | OpenAI / Claude / Gemini / 智谱等 | [lbjlaq/Antigravity-Manager](https://github.com/lbjlaq/Antigravity-Manager) |
 | **cc-switch** | The All-in-One Manager for Claude Code, Codex, Gemini CLI, OpenCode & OpenClaw | Claude / Codex / Gemini | [farion1231/cc-switch](https://github.com/farion1231/cc-switch) |
 
