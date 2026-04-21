@@ -8,12 +8,12 @@
 
 | 工具 | 核心特点 | 适用场景 | 定价 | 链接 |
 |------|----------|----------|------|------|
-| **Cursor** | AI结对编程，多模型支持，上下文管理中等 | 个人开发/小团队，追求人机协作流畅度 | Free/$20/$60/$200/月 | [cursor.com](https://cursor.com) |
-| **Windsurf** | Cascade深度代码理解，跨会话记忆，图生代码 | 大型代码库/企业团队，需持久上下文 | Free/$15/$30/月 | [codeium.com/windsurf](https://codeium.com/windsurf) |
-| **Google Antigravity** | 多智能体协同，编辑器+终端+浏览器三端控制，UI测试 | 全栈开发/前端团队，Agent优先工作流 | Free（团队版待定） | [antigravity.google](https://antigravity.google) |
-| **AWS Kiro** | 规范驱动开发（EARS语法），结构化任务拆解 | 需求明确/合规要求高的企业项目 | Free/$20/月 | [kiro.dev](https://kiro.dev) |
-| **Zed** | Rust编写，高性能，支持多模型集成 | 追求极致性能/轻量级编辑器用户 | Free | [zed.dev](https://zed.dev) |
-| **Qoder** | 阿里出品，Agentic编码平台，Repo Wiki深度代码理解 | 中文开发者/阿里生态用户，真实软件项目开发 | 预览期每月2000额度 | [qoder.com](https://qoder.com) |
+| **Cursor** | AI结对编程，多模型支持，上下文管理中等 | 个人开发/小团队，追求人机协作流畅度 | [cursor.com](https://cursor.com) |
+| **Windsurf** | Cascade深度代码理解，跨会话记忆，图生代码 | 大型代码库/企业团队，需持久上下文 | [codeium.com/windsurf](https://codeium.com/windsurf) |
+| **Google Antigravity** | 多智能体协同，编辑器+终端+浏览器三端控制，UI测试 | 全栈开发/前端团队，Agent优先工作流 | [antigravity.google](https://antigravity.google) |
+| **AWS Kiro** | 规范驱动开发（EARS语法），结构化任务拆解 | 需求明确/合规要求高的企业项目 | [kiro.dev](https://kiro.dev) |
+| **Zed** | Rust编写，高性能，支持多模型集成 | 追求极致性能/轻量级编辑器用户 | [zed.dev](https://zed.dev) |
+| **Qoder** | 阿里出品，Agentic编码平台，Repo Wiki深度代码理解 | 中文开发者/阿里生态用户，真实软件项目开发 | [qoder.com](https://qoder.com) |
 
 > 📌 **选型建议**：
 > - 追求"人机结对"体验 → **Cursor**
@@ -31,12 +31,12 @@
 |------|----------|----------|----------|
 | **Cline** | 文件级操作、执行命令、多步计划、读写本地项目 | Claude/Gemini/OpenAI/本地模型 | VSCode扩展市场搜索 `Cline` |
 | **RooCode** | Cline分叉升级版，支持DeepSeek/Qwen等国产模型，Agents自动编程 | 多模型+本地部署 | 扩展市场搜索 `Roo Code` 或 GitHub安装 |
-| **GitHub Copilot** | 代码补全/聊天/测试生成，生态成熟 | GPT-4/Codex | 扩展市场或 [copilot.github.com](https://copilot.github.com) |
+| **GitHub Copilot** | 代码补全/聊天/测试生成，生态成熟 | GPT-5.4/Claude | 扩展市场或 [copilot.github.com](https://copilot.github.com) |
 
 > 💡 **Cline/RooCode 配置要点**：
 > 1. 安装插件后进入设置 → 配置 API Key（支持多提供商）
 > 2. 推荐搭配本地模型（如 Ollama）实现隐私保护
-> 3. RooCode 支持 `/init` 初始化项目上下文，提升代码理解准确率[[7]]
+> 3. RooCode 支持 `/init` 初始化项目上下文，提升代码理解准确率
 
 ---
 
@@ -44,10 +44,10 @@
 
 > 解决多平台账号切换、配额监控、故障规避痛点
 
-| 工具 | 核心能力 | 支持平台 | 部署方式 | 项目地址 |
+| 工具 | 核心能力 | 支持平台 项目地址 |
 |------|----------|----------|----------|----------|
-| **Antigravity-Manager** | ✅ 多账号统一管理/一键切换/配额监控/自动故障规避 ✅ 协议反代（OpenAI/Claude/Gemini）✅ 接入 Claude Code CLI | OpenAI / Claude / Gemini / 智谱等 | 桌面应用 / Docker / 源码编译 | [lbjlaq/Antigravity-Manager](https://github.com/lbjlaq/Antigravity-Manager) |
-| **cc-cli** | Claude Code/Codex 配置管理，多站点多Token，WebDAV备份 | Claude / Codex | CLI 工具 | [cjh-store/cc-cli](https://github.com/cjh-store/cc-cli) |
+| **Antigravity-Manager** | ✅ 多账号统一管理/一键切换/配额监控/自动故障规避 ✅ 协议反代（OpenAI/Claude/Gemini）✅ 接入 Claude Code CLI | OpenAI / Claude / Gemini / 智谱等 | [lbjlaq/Antigravity-Manager](https://github.com/lbjlaq/Antigravity-Manager) |
+| **cc-switch** | The All-in-One Manager for Claude Code, Codex, Gemini CLI, OpenCode & OpenClaw | Claude / Codex / Gemini | [farion1231/cc-switch](https://github.com/farion1231/cc-switch) |
 
 > 🔧 **Antigravity-Manager 快速接入 Claude Code CLI**：
 > ```bash
@@ -155,6 +155,11 @@
 | 🤖 Agent 自动化 | Hermes Agent / RooCode | 支持持久记忆+任务规划+工具调用 |
 | 📚 知识库问答 | FastGPT + Cherry Studio | 向量检索+可视化编排+多模型对比 |
 | 💰 成本控制 | Zed + OpenCode + 本地模型 | 开源免费+按需调用+无订阅压力 |
+
+---
+
+### Harness 软件工程 (DevOps)
+企业级 CI/CD 流程、软件规模化交付，从传统的“自动化部署工具”进化为了 AI 原生软件交付平台，不仅是帮你“发版”的工具，还确保 AI 辅助开发不失控、不乱套的自动化治理框架。
 
 ---
 
